@@ -6,7 +6,7 @@
 # Or with path:            .\scripts\Copy-FromEclipse.ps1 -EclipsePath "C:\Users\tvams\eclipse-workspace\MyProject"
 
 param(
-    [Parameter(Mandatory = $false)]
+    [Parameter(Mandatory = $false)] { }
     [string]$EclipsePath = "C:\Users\tvams\eclipse-workspace\automation-project-v2"
 )
 
