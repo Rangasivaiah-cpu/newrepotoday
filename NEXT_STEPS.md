@@ -1,4 +1,4 @@
-# Pull All Code Here and Run from Cursor — Safe Next Steps
+# Pull All Code Here and Run from Cursor — Safe Next
 
 Follow these steps **in order**. Your code will not be lost or disrupted if you do this.
 
