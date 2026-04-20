@@ -1,0 +1,39 @@
+========================================
+  HOW TO OPEN CUCUMBER REPORT (3 ways)
+========================================
+
+WAY 1 - DOUBLE-CLICK (EASIEST)
+-----------------------------------------
+1. Open File Explorer (Windows key + E).
+2. Go to this folder: c:\My Copy\automation-project-v2
+3. Find the file: open-cucumber-report.cmd
+4. Double-click it.
+   --> The report will open in Chrome or Edge.
+
+WAY 2 - FROM CURSOR
+-----------------------------------------
+1. In Cursor, look at the LEFT sidebar (Explorer).
+2. Expand the project "AUTOMATION-PROJECT-V2".
+3. Expand the folder "target".
+4. Find "cucumber-reports.html".
+5. Double-click "cucumber-reports.html".
+   --> It may open inside Cursor. Then:
+   --> Look at the TOP of the tab that opened. Click the small icon
+       "Open in Browser" or right-click the tab > "Open in Default Browser".
+   --> If you don't see that: Right-click "cucumber-reports.html" in the
+       left sidebar > "Reveal in File Explorer". Then in the folder that
+       opened, double-click cucumber-reports.html (it will open in browser).
+
+WAY 3 - DRAG INTO BROWSER
+-----------------------------------------
+1. Open Chrome or Edge (open a new tab).
+2. In Cursor left sidebar: target > right-click cucumber-reports.html
+   > "Reveal in File Explorer" (or "Open Containing Folder").
+3. You see a folder with cucumber-reports.html.
+4. Drag the file "cucumber-reports.html" from that folder and DROP it
+   into the browser window.
+   --> Report opens.
+
+========================================
+Report file location: target\cucumber-reports.html
+========================================

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Cucumber only: no TestNG class, so automation runs once. Failed scenarios are reported; execution continues with next scenario. -->
+<suite name="Pro Food Order Cucumber Suite" verbose="1" configfailurepolicy="continue">
+  <listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+  </listeners>
+  <test name="Pro Food Order Cucumber">
+    <classes>
+      <class name="profoodorderrunnerpackage.profoodorderrunnerclass"/>
+    </classes>
+  </test>
+</suite>

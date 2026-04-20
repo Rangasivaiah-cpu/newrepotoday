@@ -1,0 +1,13 @@
+# Pro Food Order test config – copy to profoodorder.properties and set your values.
+# Never commit profoodorder.properties (it is in .gitignore).
+
+# Application URL (food order site)
+app.url=https://www.food-order.net/index.php/web_orders/home/YOUR_UID
+
+# Test login (use test account only)
+test.login.email=your-test-email@example.com
+test.login.password=your-test-password
+
+# Optional: postcode and address for delivery scenarios
+test.postcode=EH6 6AX
+test.address=Your Address, City, Country
